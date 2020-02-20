@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<!-- en-tête de la page-->
+<head>
+	<meta charset="utf-8"/>
+	<title>Le CV de Mamadou BAH</title>
+	<link rel="stylesheet" type="text/css" href="PROJ2.CSS"/>
+</head>
+
+<!-- Coprs de la page CV-->
+<body>
+<!--La partie contenant le CV-->
+<div id="grande_div">
+    <!--La partie du fond jaune-->
+    <div id="div_jaune">
+        <!--La partie photo-->
+        <div id="div_photo">
+
+
+        </div>
+        <!--Contacts-->
+        <h1>CONTACT</h1>
+        <div id="contact">
+
+        </div>
+        <!--A propos de moi-->
+        <h1>A PROPOS DE MOI</h1>
+        <div id="propos_moi">
+
+        </div>
+        <!--Loisirs-->
+        <h1>LOISIRS</h1>
+        <div id="loisirs">
+
+        </div>
+
+    </div>
+    <!--La partie du fond blanc-->
+    <div id="div_blanc">
+        <!--Nom prénom profession-->
+        <div id="moi">
+
+        </div>
+        <!--Formation-->
+        <div id="formation">
+
+        </div>
+        <!--Expérience professionnelle-->
+        <div id="experience">
+
+        </div>
+        <!--Recommandations-->
+        <div id="reco">
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
