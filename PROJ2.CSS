@@ -25,8 +25,10 @@
         width: 100%;
         height: 100%;
     }
+    .span_espace_icone{margin-left: 3%;}
     .span_form{font-size: 110%;font-weight: bold;}
     .span_experi{font-weight: bold;}
+    .recom{ font-size: 110%; font-weight: bold;}
     #compet2{
         width: 100%;
         height: 100%;
@@ -63,8 +65,10 @@
         width: 100%;
         height: 100%;
     }
+    .span_espace_icone{margin-left: 3%;}
     .span_form{font-size: 110%;font-weight: bold;}
     .span_experi{font-weight: bold;}
+    .recom{ font-size: 110%; font-weight: bold;}
     #compet2{
         width: 100%;
         height: 100%;
@@ -126,18 +130,21 @@
         .forma1{
             font-family: 'Montserrat', Impact, sans-serif; 
             font-size: 90%;
+            
         }
         .nom_prenom1{
             margin-left: 5%;
             font-family: 'Roboto', Impact, sans-serif;
         }
         #aligne1{flex-wrap: wrap;margin-left: 13%;}
-     #aligne2 { flex-wrap: wrap; margin-left: 9.5%;}
-      .aligne3{flex-wrap: wrap;margin-left: 18.5%;}
-     .aligne4{flex-wrap: wrap; margin-left: 18.7%;}
-     .aligne5{flex-wrap: wrap; margin-left: 17.8%;}
+        #aligne2 { flex-wrap: wrap; margin-left: 13%;}
+        .aligne3{flex-wrap: wrap;margin-left: 18.5%;}
+        .aligne4{flex-wrap: wrap; margin-left: 18.7%;}
+        .aligne5{flex-wrap: wrap; margin-left: 17.8%;}
+        .span_espace_icone{margin-left: 3%;}
         .span_form{font-size: 110%;font-weight: bold;}
         .span_experi{font-weight: bold;}
+        .recom{ font-size: 110%; font-weight: bold;}
         #compet2{
             width: 100%;
             height: 100%;
@@ -199,6 +206,7 @@
        .aligne3{flex-wrap: wrap; margin-left: 15.5%; }
        .aligne4{flex-wrap: wrap;margin-left: 15.7%; }
        .aligne5{flex-wrap: wrap; margin-left: 14.8%;}
+       .span_espace_icone{margin-left: 3%;}
         .span_form{font-size: 110%;font-weight: bold;}
 .align_ex1{ margin-left: 5.7%;}
 .align_ex2{ margin-left: 6.1%;}
@@ -209,6 +217,7 @@
 .align_ex7{ margin-left: 5.4%;}
 .align_ex8{ margin-left: 5.0%;}
         .span_experi{font-weight: bold;}
+        .recom{ font-size: 110%; font-weight: bold;}
         #compet2{
             width: 100%;
             height: 100%;
@@ -267,6 +276,7 @@
         width: 62%;
         height: 100%;
     }
+    .span_espace_icone{margin-left: 3%;}
     .nom_forma_exp_reco{
         margin-top: 3%;
         flex-wrap: wrap;
@@ -301,6 +311,7 @@
  .aligne5{flex-wrap: wrap; margin-left: 12.8%;}*/
     #experience{ max-height: 38%;}
     .span_experi{font-weight: bold;}
+    .recom{ font-size: 110%; font-weight: bold;}
     #compet2{
         width: auto;
         height: 100%;
@@ -388,11 +399,11 @@
         font-size: 100%;
     }
   #aligne1{flex-wrap: wrap;margin-left: 8.5%;}
-  #aligne2{flex-wrap: wrap; margin-left: 5.4%; }
- .aligne3{flex-wrap: wrap;margin-left: 13.5%;}
- .aligne4{flex-wrap: wrap; margin-left: 13.7%;}
- .aligne5{flex-wrap: wrap; margin-left: 12.8%;}
-
+  #aligne2{flex-wrap: wrap; margin-left: 5.2%; }
+ .aligne3{flex-wrap: wrap;margin-left: 13.3%;}
+ .aligne4{flex-wrap: wrap; margin-left: 13.5%;}
+ .aligne5{flex-wrap: wrap; margin-left: 12.6%;}
+  .span_espace_icone{margin-left: 3%;}
  .span_form{font-size: 110%;font-weight: bold;}
     #experience{
         font-family: 'Montserrat', Impact, sans-serif;
@@ -401,12 +412,13 @@
 .align_ex1{ margin-left: 2.9%;}
 .align_ex2{ margin-left: 3.3%;}
 .align_ex3{ margin-left: 2.2%;}
-.align_ex4{ margin-left: 3.1%;}
-.align_ex5{ margin-left: 3.5%;}
-.align_ex6{ margin-left: 2.7%;}
-.align_ex7{ margin-left: 2.4%;}
-.align_ex8{ margin-left: 2.0%;}
+.align_ex4{ margin-left: 3.2%;}
+.align_ex5{ margin-left: 3.7%;}
+.align_ex6{ margin-left: 2.9%;}
+.align_ex7{ margin-left: 2.6%;}
+.align_ex8{ margin-left: 2.3%;}
     .span_experi{font-weight: bold;}
+    .recom{ font-size: 110%; font-weight: bold;}
     #compet2{
         width: 20%;
         height: 100%;
@@ -476,6 +488,7 @@
      margin-left: 0%;
      color: white;
      height: 100%;
+     justify-content: flex-start;
           }
 
  img{
