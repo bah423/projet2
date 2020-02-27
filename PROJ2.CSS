@@ -25,6 +25,8 @@
         width: 100%;
         height: 100%;
     }
+    .span_form{font-size: 110%;font-weight: bold;}
+    .span_experi{font-weight: bold;}
     #compet2{
         width: 100%;
         height: 100%;
@@ -61,6 +63,8 @@
         width: 100%;
         height: 100%;
     }
+    .span_form{font-size: 110%;font-weight: bold;}
+    .span_experi{font-weight: bold;}
     #compet2{
         width: 100%;
         height: 100%;
@@ -127,28 +131,13 @@
             margin-left: 5%;
             font-family: 'Roboto', Impact, sans-serif;
         }
-        #aligne1{
-            flex-wrap: wrap;
-            margin-left: 1%;
-        }
-     #aligne2 {
-        flex-wrap: wrap;
-        margin-left: 9.5%;
-        }
-      .aligne3{
-        flex-wrap: wrap;
-            margin-left: 18.5%;
-              
-        }
-     .aligne4{
-        flex-wrap: wrap;
-        margin-left: 18.7%;
-        
-        }
-     .aligne5{
-        flex-wrap: wrap;
-            margin-left: 17.8%;
-        }
+        #aligne1{flex-wrap: wrap;margin-left: 13%;}
+     #aligne2 { flex-wrap: wrap; margin-left: 9.5%;}
+      .aligne3{flex-wrap: wrap;margin-left: 18.5%;}
+     .aligne4{flex-wrap: wrap; margin-left: 18.7%;}
+     .aligne5{flex-wrap: wrap; margin-left: 17.8%;}
+        .span_form{font-size: 110%;font-weight: bold;}
+        .span_experi{font-weight: bold;}
         #compet2{
             width: 100%;
             height: 100%;
@@ -196,27 +185,6 @@
             font-family: 'Montserrat', Impact, sans-serif;
              font-size: 100%;
         }
-        #aligne1{
-            flex-wrap: wrap;
-            margin-left: 5%;
-        }
-     #aligne2{
-        flex-wrap: wrap;
-            margin-left: 11.9%;
-        }
-      .aligne3{
-        flex-wrap: wrap;
-            margin-left: 19.5%;
-              
-        }
-     .aligne4{
-        flex-wrap: wrap;
-            margin-left: 19.7%; 
-        }
-     .aligne5{
-        flex-wrap: wrap;
-            margin-left: 18.8%;
-        }
     
         #div_blanc{
             width: 100%;
@@ -226,6 +194,21 @@
             margin-left: 5%;
             font-family: 'Roboto', Impact, sans-serif;
         }
+        #aligne1{flex-wrap: wrap; margin-left: 11%;}
+        #aligne2{ flex-wrap: wrap;margin-left: 7.9%;}
+       .aligne3{flex-wrap: wrap; margin-left: 15.5%; }
+       .aligne4{flex-wrap: wrap;margin-left: 15.7%; }
+       .aligne5{flex-wrap: wrap; margin-left: 14.8%;}
+        .span_form{font-size: 110%;font-weight: bold;}
+.align_ex1{ margin-left: 5.7%;}
+.align_ex2{ margin-left: 6.1%;}
+.align_ex3{ margin-left: 5.3%;}
+.align_ex4{ margin-left: 5.8%;}
+.align_ex5{ margin-left: 6.2%;}
+.align_ex6{ margin-left: 5.7%;}
+.align_ex7{ margin-left: 5.4%;}
+.align_ex8{ margin-left: 5.0%;}
+        .span_experi{font-weight: bold;}
         #compet2{
             width: 100%;
             height: 100%;
@@ -310,7 +293,14 @@
         font-family: 'Roboto', Impact, sans-serif;
     }
     #formation{ max-height: 24%;}
+    .span_form{font-size: 110%;font-weight: bold;}
+    #aligne1{flex-wrap: wrap;margin-left: 8.5%;}
+ /* #aligne2{flex-wrap: wrap; margin-left: 5.4%; }
+ .aligne3{flex-wrap: wrap;margin-left: 13.5%;}
+ .aligne4{flex-wrap: wrap; margin-left: 13.7%;}
+ .aligne5{flex-wrap: wrap; margin-left: 12.8%;}*/
     #experience{ max-height: 38%;}
+    .span_experi{font-weight: bold;}
     #compet2{
         width: auto;
         height: 100%;
@@ -397,31 +387,26 @@
         font-family: 'Montserrat', Impact, sans-serif;
         font-size: 100%;
     }
-    #aligne1{
-        flex-wrap: wrap;
-        margin-left: 3.2%;
-    }
- #aligne2{
-    flex-wrap: wrap;
-        margin-left: 11.5%;
-    }
-  .aligne3{
-    flex-wrap: wrap;
-        margin-left: 19.5%;
-          
-    }
- .aligne4{
-    flex-wrap: wrap;
-        margin-left: 19.7%; 
-    }
- .aligne5{
-    flex-wrap: wrap;
-        margin-left: 18.8%;
-    }
+  #aligne1{flex-wrap: wrap;margin-left: 8.5%;}
+  #aligne2{flex-wrap: wrap; margin-left: 5.4%; }
+ .aligne3{flex-wrap: wrap;margin-left: 13.5%;}
+ .aligne4{flex-wrap: wrap; margin-left: 13.7%;}
+ .aligne5{flex-wrap: wrap; margin-left: 12.8%;}
+
+ .span_form{font-size: 110%;font-weight: bold;}
     #experience{
         font-family: 'Montserrat', Impact, sans-serif;
         font-size: 100%;
         }
+.align_ex1{ margin-left: 2.9%;}
+.align_ex2{ margin-left: 3.3%;}
+.align_ex3{ margin-left: 2.2%;}
+.align_ex4{ margin-left: 3.1%;}
+.align_ex5{ margin-left: 3.5%;}
+.align_ex6{ margin-left: 2.7%;}
+.align_ex7{ margin-left: 2.4%;}
+.align_ex8{ margin-left: 2.0%;}
+    .span_experi{font-weight: bold;}
     #compet2{
         width: 20%;
         height: 100%;
@@ -699,7 +684,7 @@
  .aligne5{
     flex-wrap: wrap;
         margin-left: 17%;
-    }*/
+    }
 .align_ex1{ margin-left: 3%;}
 .align_ex2{ margin-left: 3.2%;}
 .align_ex3{ margin-left: 2.5%;}
@@ -708,7 +693,7 @@
 .align_ex6{ margin-left: 3.3%;}
 .align_ex7{ margin-left: 2.8%;}
 .align_ex8{ margin-left: 2.6%;}
-
+*/
  #compet{
        
         width: 100%;
