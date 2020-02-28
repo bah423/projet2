@@ -39,7 +39,7 @@
         font-family: 'Roboto', Impact, sans-serif;
     }
 }
-
+/* la media query  pour une largeur comprise entre 320px et 375px*/
 @media only screen and (min-width: 320px) and (max-width: 375px){
     #conteneur {
         display: block;
@@ -99,7 +99,7 @@
         height: 100%;   
     }
   
-  /*la media query  pour une largeur max de 450px*/
+  /* la media query  pour une largeur comprise entre 376px et 769px*/
     @media only screen and (min-width: 376px) and (max-width: 769px){
         #conteneur {
             display: block;
@@ -137,10 +137,10 @@
             font-family: 'Roboto', Impact, sans-serif;
         }
         #aligne1{flex-wrap: wrap;margin-left: 13%;}
-        #aligne2 { flex-wrap: wrap; margin-left: 13%;}
+        #aligne2 { flex-wrap: wrap; margin-left: 9.1%;}
         .aligne3{flex-wrap: wrap;margin-left: 18.5%;}
         .aligne4{flex-wrap: wrap; margin-left: 18.7%;}
-        .aligne5{flex-wrap: wrap; margin-left: 17.8%;}
+        .aligne5{flex-wrap: wrap; margin-left: 17.5%;}
         .span_espace_icone{margin-left: 3%;}
         .span_form{font-size: 110%;font-weight: bold;}
         .span_experi{font-weight: bold;}
@@ -169,7 +169,7 @@
             color: white;
         }
     }
-   
+   /* la media query  pour une largeur comprise entre 370px et 1024px*/
     @media only screen and (min-width: 770px) and (max-width: 1024px){
         #conteneur {
             display: block;
@@ -248,7 +248,7 @@
         width:100%;
         height: 100%;   
     }
-
+/* la media query  pour une largeur comprise entre 1025px et 1299px*/
 @media only screen and (min-width: 1025px) and (max-width:1299px){
     #conteneur {
         display: flex;
@@ -340,6 +340,7 @@
         height: 100%;
     }*/
 }
+/* la media query  pour une largeur minimale de 1300px*/
 @media only screen and (min-width: 1300px){
     #conteneur {
         display: flex;
@@ -447,26 +448,7 @@
         height: 100%;
     }*/
 }
-  /*  .tech_int_restu_lang{
-        margin: 5px 5%;
-        flex-wrap: wrap;
-        height: 100%;
-    }
-    .integration{
-        margin: 5px 5%;
-        flex-wrap: wrap;
-        width:100%;
-        height: 100%;
-    }
-
-
-#compet{
-    width:100%;
-    height: 100%;   
-    }
-
-*/
-/*La media query pour mon ordi*/
+  
 
 .contact_moi_loisir {
   flex-wrap: wrap;
@@ -677,36 +659,6 @@
     padding-left: 0px;
     }
 
- /* #aligne1{
-        flex-wrap: wrap;
-        margin-left: 4.5%;
-    }
- #aligne2{
-    flex-wrap: wrap;
-        margin-left: 11%;
-    }
-  .aligne3{
-    flex-wrap: wrap;
-        margin-left: 17.5%;
-          
-    }
- .aligne4{
-    flex-wrap: wrap;
-        margin-left: 18%; 
-    }
- .aligne5{
-    flex-wrap: wrap;
-        margin-left: 17%;
-    }
-.align_ex1{ margin-left: 3%;}
-.align_ex2{ margin-left: 3.2%;}
-.align_ex3{ margin-left: 2.5%;}
-.align_ex4{ margin-left: 3.3%;}
-.align_ex5{ margin-left: 4%;}
-.align_ex6{ margin-left: 3.3%;}
-.align_ex7{ margin-left: 2.8%;}
-.align_ex8{ margin-left: 2.6%;}
-*/
  #compet{
        
         width: 100%;
@@ -815,13 +767,6 @@
     src:url(Montserrat.ttf) format('ttf');
 } 
 
-/*#recom{
-    height: 15%;
-    display: flex;
-    flex-direction: column;
-    border: solid 2px greenyellow;
-    
-}*/
   
 #reco{
     flex-wrap: wrap;
@@ -829,7 +774,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   /* border: solid 2px greenyellow;*/
+
 }
 .reco1{
     /*font-size: 80%;*/
