@@ -466,7 +466,26 @@
         height: 100%;
     }*/
 }
-  
+
+/*La mise en forme(couleur) des puces cercles*/
+.fa-dot-circle{color: rgb(65, 201, 225);}
+/*La mise en forme(couleur) des icônes des grands titres*/
+.fa-graduation-cap{color: rgb(255, 153, 0);}
+.fa-briefcase{color: rgb(255, 153, 0);}
+.fa-pencil-alt{color: rgb(255, 153, 0);}
+.fa-cogs{color: rgb(255, 153, 0);}
+/*Les couleurs de prénom et de la bordure du bas*/
+.couleur_nom{color: #58D68D;}
+.bordure_bottom{border-bottom: solid 3px #58D68D;}
+/*Les couleurs des icônes de div gauche*/
+ .fa-home{color:rgba(255, 255, 255, 0.603)}
+ .fa-mobile-alt{color:rgb(255, 153, 0)}
+ .fa-at{color:rgb(255, 153, 0)}
+ .fa-skype{color: rgb(65, 201, 225);}
+ .fa-globe{color: rgb(65, 201, 225);}
+ .fa-biking{color:rgb(165, 61, 42);}
+ .fa-swimmer{color: skyblue;}
+ .fa-file-code{color:rgb(255, 0, 234);}
 
 .contact_moi_loisir {
   flex-wrap: wrap;
