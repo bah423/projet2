@@ -124,12 +124,12 @@ body{
     .align_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
     .align_date2{ display: flex; width: 300px; margin-left: 15%; font-weight: bold;}
     .ali_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
+    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
+    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
     #formation{ max-height: 24%;}
-    .span_form{font-weight: bold;}
+    .span_form{font-weight: bold;margin-top: 2%;}
     #experience{ max-height: 38%;}
-    .span_experi{font-weight: bold;}
+    .span_experi{font-weight: bold;margin-top: 2%;}
     .recom{ font-size: 90%; font-weight: bold;}
     .nom_forma_exp_reco1{
         margin-top: 8%;
@@ -357,14 +357,15 @@ body{
     .align_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
     .align_date2{ display: flex; width: 300px; margin-left: 15%; font-weight: bold;}
     .ali_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
+    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
+    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
     #formation{ max-height: 24%;}
-    .span_form{font-weight: bold;}
+    .span_form{font-weight: bold; margin-top: 3%;}
     #experience{ max-height: 38%;}
-    .span_experi{font-weight: bold;}
+    .span_experi{font-weight: bold; margin-top: 3%;}
     .recom{ font-size: 90%; font-weight: bold;}
     .nom_forma_exp_reco1{
+        margin-left: 2%;
         margin-top: 8%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -380,6 +381,7 @@ body{
         background-color: #3498DB;  
     }
     .nom_forma_exp_reco2{
+        margin-left: 2%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -395,6 +397,7 @@ body{
         background-color: #3498DB;   
     }
     .nom_forma_exp_reco3{
+        margin-left: 2%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -591,14 +594,15 @@ body{
         .align_date1{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;}
         .align_date2{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;}
         .ali_date1{ display: flex; width: 300px; font-weight: bold; margin-left: 15%;}
-        .ali_date2{ display: flex; width: 300px; font-weight: bold; margin-left: 15%;}
-        .ali_date3{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;}
+        .ali_date2{ display: flex; width: 300px; font-weight: bold; margin-left: 15%; margin-top: 3%;}
+        .ali_date3{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;margin-top: 3%;}
         #formation{ max-height: 24%;}
-        .span_form{font-weight: bold;}
+        .span_form{font-weight: bold; margin-top: 3%;}
         #experience{ max-height: 38%;}
-        .span_experi{font-weight: bold; margin-left: 0%;}
+        .span_experi{font-weight: bold; margin-top: 3%;}
         .recom{ font-size: 90%; font-weight: bold;}
         .nom_forma_exp_reco1{
+            margin-left: 2%;
             margin-top: 8%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -614,6 +618,7 @@ body{
             background-color: #3498DB;  
         }
         .nom_forma_exp_reco2{
+            margin-left: 2%;
             margin-top: 3%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -629,6 +634,7 @@ body{
             background-color: #3498DB;   
         }
         .nom_forma_exp_reco3{
+            margin-left: 2%;
             margin-top: 3%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -1735,7 +1741,7 @@ body{
     height: auto;
 }
 
-.periode2_8{
+/*.periode2_8{
     flex-wrap: wrap;
     width:100%;
     font-family: 'Montserrat', Impact, sans-serif;
@@ -1744,7 +1750,7 @@ body{
     padding-bottom: 0px;
     padding-top: 0px;
     display: inline-flex; 
-}
+}*/
 /*Les deux types de police utilisées*/
 @font-face{ 
         font-family: "Roboto";
