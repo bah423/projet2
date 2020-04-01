@@ -6,25 +6,28 @@ body{
 /* la media query  pour une largeur max de 350px*/
 @media only screen and (max-width: 320px){
     #conteneur {
+        border: solid 1px black;
         padding:0px;
         margin: 0px;
         display: block;
         justify-content: space-between;
-        width: 100%;
         height: 100%;
         }
      
     #div_jaune{
-        padding-left: 2%;
-        padding-right: 2%;
         width: 100%;
         height: 100%;
-        border: solid 2px black;
+       /* border: solid 2px black;*/
+    }
+    #photo{
+        margin-left: 0%;
+        padding-left: 0%;
+        margin-right: 0%;
+        padding-right: 0%;
     }
     #div_jaune {
         flex-wrap: wrap;
         background-color:#21618C;
-       /* width: 100%;*/
         text-align: center;
         margin-left: 0%;
         color: white;
@@ -35,16 +38,27 @@ body{
    #span_adresse2{margin-left: 6.5%;}
   .span_adresse{margin-left: 4%;}
     .adresse{
-        font-size: 90%;
+        font-size: 88%;
         font-family: 'Montserrat', Impact, sans-serif; 
     }
+    .adresse{
+        font-family: 'Montserrat', Impact, sans-serif;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 89%;
+      }
     .adresse2{
+        width: 97%;
         padding-bottom: 20%;
         text-align: justify;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
         font-family: 'Montserrat', Impact, sans-serif; 
-        font-size: 90%;
+        font-size: 88%;
     }
     .adressel {
         flex-wrap: wrap;
@@ -59,21 +73,19 @@ body{
     #div_blanc{
         width: 100%;
         height: 100%;
-        padding-left: 2%;
-        padding-right: 2%;
         flex-wrap: wrap;
         padding-top: 0px;
-        border: solid 2px black;
+        /*border: solid 2px black;*/
     }
     .nom_prenom1{
         flex-wrap: wrap;
          font-family: 'Roboto', Impact, sans-serif;
-         font-size: 150%;
+         font-size: 149%;
          font-weight: bold;
          margin-bottom: 0px;
          padding-right: 0px;
          margin-right: 0px;
-         margin-left: 5%;
+         padding-left: 1%;
          width: 10%;
 
      }
@@ -83,11 +95,11 @@ body{
         margin-bottom: 0px;
         font-size: 100%;
         margin-top: 1%;
-        margin-left: 5%;  
+        padding-left: 1%;  
     } 
     .forma1{
         font-family: 'Montserrat', Impact, sans-serif; 
-        font-size: 90%;
+        font-size: 88%;
         
     }
     .periode{margin-left: 5%; width: 300px;}
@@ -98,40 +110,46 @@ body{
     .align_ex3{margin-left: 2%; }
     .dev_web1{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left:15%;}
     .dev1{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
     }
     .dev_web2{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
     .dev2{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
     }
     .dev_web3{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
     .dev3{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
     }
     .dev_web4{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left: 15%;}
     .dev4{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
     }
     .dev_web5{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
     .dev5{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
     }
-    .align_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .align_date2{ display: flex; width: 300px; margin-left: 15%; font-weight: bold;}
-    .ali_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
-    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
+    .align_date1{ display: flex; width: 200px; margin-left: 0%;font-weight: bold;}
+    .align_date2{ display: flex; width: 200px; margin-left: 0%; font-weight: bold;}
+    .ali_date1{ display: flex; width: 200px; margin-left: 0%;font-weight: bold;}
+    .ali_date2{ display: flex; width: 200px; margin-left: 0%;font-weight: bold; margin-top: 3%;}
+    .ali_date3{ display: flex; width: 200px; margin-left: 0%;font-weight: bold; margin-top: 3%;}
     #formation{ max-height: 24%;}
     .span_form{font-weight: bold;margin-top: 2%;}
     #experience{ max-height: 38%;}
     .span_experi{font-weight: bold;margin-top: 2%;}
-    .recom{ font-size: 90%; font-weight: bold;}
+    .recom{ font-size: 88%; font-weight: bold;}
     .nom_forma_exp_reco1{
+        margin-left: 1%;
         margin-top: 8%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -139,7 +157,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -147,6 +165,7 @@ body{
         background-color: #3498DB;  
     }
     .nom_forma_exp_reco2{
+        margin-left: 1%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -154,7 +173,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -162,6 +181,7 @@ body{
         background-color: #3498DB;   
     }
     .nom_forma_exp_reco3{
+        margin-left: 1%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -169,7 +189,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -178,7 +198,7 @@ body{
     }
     .forma1{
         justify-content: center;
-        font-size: 90%;
+        font-size: 88%;
         flex-wrap: wrap;
         width: 100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -192,7 +212,7 @@ body{
     }
     #periode1{
         justify-content: center;
-        font-size: 90%;
+        font-size: 88%;
         flex-wrap: wrap;
         width:100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -207,7 +227,7 @@ body{
     
     .periode2_8{
         justify-content: center;
-        font-size: 90%;
+        font-size: 88%;
         flex-wrap: wrap;
         width:100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -227,30 +247,26 @@ body{
     
     }
     .reco1{
-        font-size: 90%;
+        font-size: 88%;
         font-family: 'Montserrat', Impact, sans-serif;
-        margin-left: 15%; 
+        margin-left: 2%; 
     }
     .span_espace_icone{margin-left: 3%;}
-    .span_form{font-size: 90%;font-weight: bold;   margin-left: 15%;}
-    .span_experi{font-size: 90%;font-weight: bold; margin-left: 15%;}
-    .recom{ font-size: 90%; font-weight: bold;}
-    .fonction1 {
-        margin-left: 15%;
-        font-family: 'Roboto', Impact, sans-serif;
-    }
+    .span_form{font-size: 88%;font-weight: bold;   margin-left: 15%;}
+    .span_experi{font-size: 88%;font-weight: bold; margin-left: 15%;}
+    .recom{ font-size: 88%; font-weight: bold;}
 }
 /* la media query  pour une largeur comprise entre 320px et 375px*/
 @media only screen and (min-width: 321px) and (max-width: 375px){
     #conteneur {
+        border: black solid 1px;
         display: block;
         justify-content: space-between;
-        width: 100%;
+       /* width: 100%;*/
         height: 100%;
         }
      
     #div_jaune{
-        border: black solid 2px;
         padding-left: 0%;
         padding-right: 0%;
         width: 100%;
@@ -259,7 +275,6 @@ body{
     #div_jaune {
         flex-wrap: wrap;
         background-color:#21618C;
-       /* width: 100%;*/
         text-align: center;
         margin-left: 0%;
         color: white;
@@ -267,23 +282,33 @@ body{
         justify-content: flex-start;
              }
     #span_adresse1{margin-left: 3%;}
-   #span_adresse2{margin-left: 6.5%;}
-  .span_adresse{margin-left: 4%;}
+    #span_adresse2{margin-left: 6.5%;}
+    .span_adresse{margin-left: 4%;}
     .adresse{
-        font-size: 90%;
+        font-size: 89%;
         font-family: 'Montserrat', Impact, sans-serif; 
     }
+    .adresse{
+        font-family: 'Montserrat', Impact, sans-serif;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 89%;
+      }
     .adresse2{
+        width: 97%;
         padding-bottom: 20%;
         text-align: justify;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
         font-family: 'Montserrat', Impact, sans-serif; 
-        font-size: 90%;
+        font-size: 89%;
     }
     .adressel {
         flex-wrap: wrap;
-       /* font-size: 100%;*/
         width: 100%;
         display: flex;
         padding-bottom: 5%;
@@ -296,76 +321,78 @@ body{
         height: 100%;
         flex-wrap: wrap;
         padding-top: 0px;
-        border: solid 2px black;
     }
     .nom_prenom1{
-        flex-wrap: wrap;
+         flex-wrap: wrap;
          font-family: 'Roboto', Impact, sans-serif;
-         font-size: 150%;
+         font-size: 149%;
          font-weight: bold;
          margin-bottom: 0px;
          padding-right: 0px;
          margin-right: 0px;
-         margin-left: 5%;
+         padding-left: 1%;
          width: 10%;
-
      }
      .fonction {
         font-family: 'Roboto', Impact, sans-serif;
         flex-direction: column;
         margin-bottom: 0px;
-        font-size: 100%;
+        font-size: 99%;
         margin-top: 1%;
-        margin-left: 5%;  
+        padding-left: 1%;  
     } 
     .forma1{
         font-family: 'Montserrat', Impact, sans-serif; 
-        font-size: 90%;
-        
+        font-size: 89%; 
     }
     .periode{margin-left: 5%; width: 300px;}
-    .aligne1{margin-left: 2%;}
-    .aligne2{margin-left: 2%;}
-    .align_ex1{margin-left: 2%;}
-    .align_ex2{margin-left: 2%; }
-    .align_ex3{margin-left: 2%; }
-    .dev_web1{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left:15%;}
+    .aligne1{padding-left: 2%;}
+    .aligne2{padding-left: 2%;}
+    .align_ex1{padding-left: 2%;}
+    .align_ex2{padding-left: 2%; }
+    .align_ex3{padding-left: 2%; }
+    .dev_web1{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left:10%; width: 250px;}
     .dev1{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
-    .dev_web2{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+    .dev_web2{margin-top: 2%; margin-bottom: 2%; font-weight: bold; padding-left: 10%; width: 250px;}
     .dev2{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
-    .dev_web3{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+    .dev_web3{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
     .dev3{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
-    .dev_web4{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left: 15%;}
+    .dev_web4{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
     .dev4{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
-    .dev_web5{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+    .dev_web5{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
     .dev5{
+        padding-right: 0.5%;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
-    .align_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .align_date2{ display: flex; width: 300px; margin-left: 15%; font-weight: bold;}
-    .ali_date1{ display: flex; width: 300px; margin-left: 15%;font-weight: bold;}
-    .ali_date2{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
-    .ali_date3{ display: flex; width: 300px; margin-left: 15%;font-weight: bold; margin-top: 3%;}
+    .align_date1{ display: flex; width: 200px; padding-left: 11%;font-weight: bold;}
+    .align_date2{ display: flex; width: 200px; padding-left: 11%; font-weight: bold;}
+    .ali_date1{ display: flex; width: 200px; padding-left: 11%;font-weight: bold;}
+    .ali_date2{ display: flex; width: 200px; padding-left: 11%;font-weight: bold; margin-top: 3%;}
+    .ali_date3{ display: flex; width: 200px; padding-left: 11%;font-weight: bold; margin-top: 3%;}
     #formation{ max-height: 24%;}
-    .span_form{font-weight: bold; margin-top: 3%;}
     #experience{ max-height: 38%;}
-    .span_experi{font-weight: bold; margin-top: 3%;}
-    .recom{ font-size: 90%; font-weight: bold;}
+    .span_form{font-size: 89%;font-weight: bold;   padding-left: 10%; margin-top: 3%;}
+    .span_experi{font-size: 89%;font-weight: bold; padding-left: 10%; margin-top: 3%;}
+    .recom{ font-size: 89%; font-weight: bold;}
     .nom_forma_exp_reco1{
-        margin-left: 2%;
+        margin-left: 1%;
         margin-top: 8%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -373,7 +400,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -381,7 +408,7 @@ body{
         background-color: #3498DB;  
     }
     .nom_forma_exp_reco2{
-        margin-left: 2%;
+        margin-left: 1%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -389,7 +416,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -397,7 +424,7 @@ body{
         background-color: #3498DB;   
     }
     .nom_forma_exp_reco3{
-        margin-left: 2%;
+        margin-left: 1%;
         margin-top: 3%;
         margin-bottom: 2%;
         flex-wrap: wrap;
@@ -405,7 +432,7 @@ body{
         border-bottom: double 10px #58D68D;
         width: 95%;
         padding-bottom: 1px;
-        font-size: 110%;
+        font-size: 109%;
         font-weight: bold;
         align-items: center;
         font-family: 'Roboto', Impact, sans-serif;
@@ -413,8 +440,8 @@ body{
         background-color: #3498DB;   
     }
     .forma1{
-        justify-content: center;
-        font-size: 90%;
+       /* justify-content: center;*/
+        font-size: 89%;
         flex-wrap: wrap;
         width: 100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -427,8 +454,8 @@ body{
         padding-left: 0px;
     }
     #periode1{
-        justify-content: center;
-        font-size: 90%;
+        /*justify-content: center;*/
+        font-size: 89%;
         flex-wrap: wrap;
         width:100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -442,8 +469,8 @@ body{
     }
     
     .periode2_8{
-        justify-content: center;
-        font-size: 90%;
+       /* justify-content: center;*/
+        font-size: 89%;
         flex-wrap: wrap;
         width:100%;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -463,31 +490,25 @@ body{
     
     }
     .reco1{
-        font-size: 90%;
+        font-size: 89%;
         font-family: 'Montserrat', Impact, sans-serif;
-        margin-left: 15%; 
+        margin-left: 2%; 
     }
     .span_espace_icone{margin-left: 3%;}
-    .span_form{font-size: 90%;font-weight: bold;   margin-left: 15%;}
-    .span_experi{font-size: 90%;font-weight: bold; margin-left: 15%;}
-    .recom{ font-size: 90%; font-weight: bold;}
-    .fonction1 {
-        margin-left: 15%;
-        font-family: 'Roboto', Impact, sans-serif;
-    }
+    .recom{ font-size: 89%; font-weight: bold;}
 }
   /* la media query  pour une largeur comprise entre 376px et 769px*/
     @media only screen and (min-width: 376px) and (max-width: 759px){
         
         #conteneur {
+            border: solid 1px black;
+            margin: 0;
+            padding:0;
             display: block;
             }
          
         #div_jaune{
-            border: solid 2px black;
-            padding-left: 1%;
-            padding-right: 1%;
-            width: 100%;
+            width: 99.99%;
             height: 100%;
         }
         #div_jaune {
@@ -500,19 +521,31 @@ body{
             justify-content: flex-start;
                  }
         #span_adresse1{margin-left: 3%;}
-       #span_adresse2{margin-left: 6.5%;}
-      .span_adresse{margin-left: 4%;}
+        #span_adresse2{margin-left: 6.5%;}
+       .span_adresse{margin-left: 4%;}
         .adresse{
-            font-size: 90%;
+            font-size: 89%;
             font-family: 'Montserrat', Impact, sans-serif; 
         }
+        .adresse{
+            font-family: 'Montserrat', Impact, sans-serif;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+            padding-left: 3%;
+            padding-right: 3%;
+            width: 89%;
+          }
         .adresse2{
+            width: 97%;
+            flex-wrap: wrap;
             padding-bottom: 20%;
             text-align: justify;
-            padding-left: 2%;
-            padding-right: 2%;
+            padding-left: 1%;
+            padding-right: 1%;
             font-family: 'Montserrat', Impact, sans-serif; 
-            font-size: 90%;
+            font-size: 89%;
         }
         .adressel {
             flex-wrap: wrap;
@@ -528,14 +561,12 @@ body{
             height: 100%;
             flex-wrap: wrap;
             padding-top: 0px;
-            border: solid 2px black;
-            padding-right: 1%;
-            padding-left: 1%;
         }
         .nom_prenom1{
+            padding-left: 1%;
             flex-wrap: wrap;
              font-family: 'Roboto', Impact, sans-serif;
-             font-size: 200%;
+             font-size: 195%;
              font-weight: bold;
              margin-bottom: 0px;
              padding-right: 0px;
@@ -546,63 +577,65 @@ body{
             font-family: 'Roboto', Impact, sans-serif;
             flex-direction: column;
             margin-bottom: 0px;
-            font-size: 100%;
+            font-size: 99%;
             margin-top: 1%;
-            margin-left: 5%;  
+            padding-left: 1%; 
         } 
         .forma1{
             font-family: 'Montserrat', Impact, sans-serif; 
-            font-size: 90%;
+            font-size: 89%;
             
         }
-        .nom_prenom1{
-            margin-left: 5%;
-            font-family: 'Roboto', Impact, sans-serif;
-        }
-        
+    
         .periode{margin-left: 5%; width: 300px;}
-        .aligne1{margin-left: 2%;}
-        .aligne2{margin-left: 2%;}
-        .align_ex1{margin-left: 2%;}
-        .align_ex2{margin-left: 2%; }
-        .align_ex3{margin-left: 2%; }
-        .dev_web1{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left:15%;}
+        .aligne1{padding-left: 1%;}
+        .aligne2{padding-left: 1%;}
+        .align_ex1{padding-left: 1%;}
+        .align_ex2{padding-left: 1%; }
+        .align_ex3{padding-left: 1%; }
+        .dev_web1{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left:10%; width: 250px;}
         .dev1{
+            padding-right: 0.5%;
+            padding-left: .05%;
             flex-wrap: wrap;
-            width: 100%;
+            width: 97%;
         }
-        .dev_web2{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+        .dev_web2{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%;width: 250px;}
         .dev2{
+            padding-right: 0.5%;
             flex-wrap: wrap;
-            width: 100%;
+            width: 97%;
         }
-        .dev_web3{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+        .dev_web3{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
         .dev3{
+            padding-right: 0.5%;
             flex-wrap: wrap;
-            width: 100%;
+            width: 97%;
         }
-        .dev_web4{margin-top: 2%; margin-bottom:  2%; font-weight: bold; margin-left: 15%;}
+        .dev_web4{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
         .dev4{
+            padding-right: 0.5%;
             flex-wrap: wrap;
-            width: 100%;
+            width: 97%;
         }
-        .dev_web5{margin-top: 2%; margin-bottom:  2%; font-weight: bold;margin-left: 15%;}
+        .dev_web5{margin-top: 2%; margin-bottom:  2%; font-weight: bold; padding-left: 10%; width: 250px;}
         .dev5{
+            padding-right: 0.5%;
             flex-wrap: wrap;
-            width: 100%;
+            width: 97%;
         }
-        .align_date1{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;}
-        .align_date2{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;}
-        .ali_date1{ display: flex; width: 300px; font-weight: bold; margin-left: 15%;}
-        .ali_date2{ display: flex; width: 300px; font-weight: bold; margin-left: 15%; margin-top: 3%;}
-        .ali_date3{ display: flex; width: 300px; font-weight: bold;margin-left: 15%;margin-top: 3%;}
+        .align_date1{ display: flex; width: 300px; font-weight: bold;margin-left: 11%;}
+        .align_date2{ display: flex; width: 300px; font-weight: bold;margin-left: 11%;}
+        .ali_date1{ display: flex; width: 300px; font-weight: bold; margin-left: 11%;}
+        .ali_date2{ display: flex; width: 300px; font-weight: bold; margin-left: 11%; margin-top: 3%;}
+        .ali_date3{ display: flex; width: 300px; font-weight: bold;margin-left: 11%;margin-top: 3%;}
         #formation{ max-height: 24%;}
-        .span_form{font-weight: bold; margin-top: 3%;}
+        .span_form{font-size: 89%;font-weight: bold; padding-left: 10%; margin-top: 3%;}
+        .span_experi{font-size: 89%;font-weight: bold; padding-left: 10%; margin-top: 3%;}
         #experience{ max-height: 38%;}
-        .span_experi{font-weight: bold; margin-top: 3%;}
-        .recom{ font-size: 90%; font-weight: bold;}
+        .recom{ font-size: 89%; font-weight: bold;}
         .nom_forma_exp_reco1{
-            margin-left: 2%;
+            margin-left: 1%;
             margin-top: 8%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -610,7 +643,7 @@ body{
             border-bottom: double 10px #58D68D;
             width: 95%;
             padding-bottom: 1px;
-            font-size: 110%;
+            font-size: 109%;
             font-weight: bold;
             align-items: center;
             font-family: 'Roboto', Impact, sans-serif;
@@ -618,7 +651,7 @@ body{
             background-color: #3498DB;  
         }
         .nom_forma_exp_reco2{
-            margin-left: 2%;
+            margin-left: 1%;
             margin-top: 3%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -626,7 +659,7 @@ body{
             border-bottom: double 10px #58D68D;
             width: 95%;
             padding-bottom: 1px;
-            font-size: 110%;
+            font-size: 109%;
             font-weight: bold;
             align-items: center;
             font-family: 'Roboto', Impact, sans-serif;
@@ -634,7 +667,7 @@ body{
             background-color: #3498DB;   
         }
         .nom_forma_exp_reco3{
-            margin-left: 2%;
+            margin-left: 1%;
             margin-top: 3%;
             margin-bottom: 2%;
             flex-wrap: wrap;
@@ -642,7 +675,7 @@ body{
             border-bottom: double 10px #58D68D;
             width: 95%;
             padding-bottom: 1px;
-            font-size: 110%;
+            font-size: 109%;
             font-weight: bold;
             align-items: center;
             font-family: 'Roboto', Impact, sans-serif;
@@ -650,8 +683,7 @@ body{
             background-color: #3498DB;   
         }
         .forma1{
-            /*justify-content: center;*/
-            font-size: 90%;
+            font-size: 89%;
             flex-wrap: wrap;
             width: 100%;
             font-family: 'Montserrat', Impact, sans-serif;
@@ -660,11 +692,13 @@ body{
             display: flex;
             margin-top: 6%;
             margin-bottom: 0%;
+            margin-right: 0px;
             margin-left: 0px;
             padding-left: 0px;
+            padding-right: 0px;
         }
         #periode1{
-            font-size: 90%;
+            font-size: 89%;
             flex-wrap: wrap;
             width:100%;
             font-family: 'Montserrat', Impact, sans-serif;
@@ -674,11 +708,15 @@ body{
             margin-bottom: 0px;
             margin-top: 6%;
             margin-left: 0px;
+            margin-right: 0px;
+            padding-right: 0px;
             padding-left: 0px;
         }
         
         .periode2_8{
-            font-size: 90%;
+            margin-right: 0px;
+            padding-right: 0px;
+            font-size: 89%;
             flex-wrap: wrap;
             width:100%;
             font-family: 'Montserrat', Impact, sans-serif;
@@ -698,18 +736,12 @@ body{
         
         }
         .reco1{
-            font-size: 90%;
+            font-size: 89%;
             font-family: 'Montserrat', Impact, sans-serif;
-            margin-left: 15%; 
+            padding-left: 1%; 
         }
         .span_espace_icone{margin-left: 3%;}
-        .span_form{font-size: 90%;font-weight: bold; margin-left: 15%; }
-        .span_experi{font-size: 90%;font-weight: bold; margin-left: 15%;}
-        .recom{ font-size: 90%; font-weight: bold;}
-        .fonction1 {
-            margin-left: 15%;
-            font-family: 'Roboto', Impact, sans-serif;
-        }
+        .recom{ font-size: 89%; font-weight: bold;}
     }
    /* la media query  pour une largeur comprise entre 360px et 1024px*/
     @media only screen and (min-width: 760px) and (max-width: 1024px){
@@ -718,14 +750,14 @@ body{
             margin: 0px;
             display: block;
             justify-content: space-between;
-            width: 100%;
+           /* width: 100%;*/
             height: 100%;
               
             }
          
         #div_jaune{
             border: solid 2px black;
-            width: 102%;
+           /* width: 100%;*/
             height: 100%;
         }
         #div_jaune {
@@ -745,6 +777,16 @@ body{
             font-family: 'Montserrat', Impact, sans-serif;
             font-size: 110%;
         }
+        .adresse{
+            font-family: 'Montserrat', Impact, sans-serif;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+            padding-left: 3%;
+            padding-right: 3%;
+            width: 89%;
+          }
         .adresse2{
             font-family: 'Montserrat', Impact, sans-serif;
              font-size: 110%;
@@ -771,12 +813,12 @@ body{
     
         #div_blanc{
             clear: both;
-            width: 100%;
+           /* width: 100%;*/
             height: 100%;
             flex-wrap: wrap;
             padding-top: 0px;
             border: solid 2px black;
-            padding-left: 2%;
+            padding-left: 1%;
         }
         .nom_prenom1{
             flex-wrap: wrap;
@@ -789,12 +831,12 @@ body{
              width: 10%;
          }
         .nom_prenom1{
-            margin-left: 5%;
+            margin-left: 0%;
             font-family: 'Roboto', Impact, sans-serif;
         }
         .fonction{
             font-family: 'Roboto', Impact, sans-serif;
-            margin-left: 5%; 
+            margin-left: 0%; 
             font-size: 150%;
         }
         .periode{margin-left: 5%; width: 300px;}
@@ -835,6 +877,7 @@ body{
         .ali_date3{ display: flex; width: 150px;}
         #formation{ max-height: 24%;}
         .span_form{font-weight: bold;}
+        .span_espace_icone{margin-left: 3%;}
         #experience{ max-height: 38%;}
         .span_experi{font-weight: bold;}
         .recom{ font-size: 110%; font-weight: bold;}
@@ -923,6 +966,7 @@ body{
         }
 
         #reco{
+            padding:0;
             flex-wrap: wrap;
             margin-top: 0.5%;
             display: flex;
@@ -931,9 +975,10 @@ body{
         
         }
         .reco1{
+            padding:0;
             font-size: 110%;
             font-family: 'Montserrat', Impact, sans-serif;
-            margin-left: 3%;
+            margin-left: 0%;
             margin-right: 3%;
         }
         .span_experi{font-weight: bold;}
@@ -943,9 +988,9 @@ body{
     @media only screen and (min-width: 1025px) and (max-width:1206px){
         #conteneur {
             display: flex;
-            border: 1px solid black;
+            border: 2px solid black;
             justify-content: space-between;
-            width: 100%;
+           /* width: 100%;*/
             height: 100%;
               
             }
@@ -964,13 +1009,23 @@ body{
             height: auto;
             justify-content: flex-start;
                  }
-        #span_adresse1{margin-left: 1.5%;}
-        #span_adresse2{margin-left: 3%; margin-right: 3%;}
+        #span_adresse1{margin-left: 1.5%; font-size: 95%;}
+        #span_adresse2{margin-left: 3%; margin-right: 3%;width:200px}
         .span_adresse{margin-left: 2%;}
         .adresse{
             font-family: 'Montserrat', Impact, sans-serif;
             font-size: 100%;
         }
+        .adresse{
+            font-family: 'Montserrat', Impact, sans-serif;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 89%;
+          }
         .adresse2{
             font-family: 'Montserrat', Impact, sans-serif;
             font-size: 100%;
@@ -986,7 +1041,7 @@ body{
             display: flex;
             padding-bottom: 5%;
             justify-content: space-around;
-            padding-top: 3%;
+            padding-top: 10%;
         
         }
     
@@ -1014,12 +1069,12 @@ body{
             margin-bottom: 0px;
             font-size: 115%;
             margin-top: 1%;
-            margin-left: 5%;  
+            margin-left: 0%;  
         } 
         .span_espace_icone{margin-left: 3%;}
        
         .nom_prenom1{
-            margin-left: 5%;
+            margin-left: 0%;
         }
         .fonction {
             font-family: 'Roboto', Impact, sans-serif;
@@ -1161,7 +1216,7 @@ body{
         .reco1{
         
             font-family: 'Montserrat', Impact, sans-serif;
-            margin-left: 2%;
+            margin-left: 0%;
             margin-right: 2%;
         }
 }    
@@ -1171,7 +1226,7 @@ body{
         display: flex;
         border: 1px solid black;
         justify-content: space-between;
-        width: 100%;
+       /* width: 99.85%;*/
         height: 100%;
           
         }
@@ -1185,13 +1240,23 @@ body{
         height: auto;
         justify-content: flex-start;
              }
-    #span_adresse1{margin-left: 1.5%;}
-    #span_adresse2{margin-left: 3%; margin-right: 3%;}
+    #span_adresse1{margin-left: 1.5%;font-size: 95%;}
+    #span_adresse2{margin-left: 3%; margin-right: 3%;width:200px;}
     .span_adresse{margin-left: 2%;}
     .adresse{
         font-family: 'Montserrat', Impact, sans-serif;
         font-size: 100%;
     }
+    .adresse{
+        font-family: 'Montserrat', Impact, sans-serif;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 89%;
+      }
     .adresse2{
         text-align: justify;
         font-family: 'Montserrat', Impact, sans-serif;
@@ -1209,7 +1274,7 @@ body{
         display: flex;
         padding-bottom: 0%;
         justify-content: space-around;
-        padding-top: 5%;
+        padding-top: 12%;
     
     }
 
@@ -1237,12 +1302,12 @@ body{
         margin-bottom: 0px;
         font-size: 115%;
         margin-top: 1%;
-        margin-left: 5%;  
+        margin-left: 0%;  
     } 
     .span_espace_icone{margin-left: 3%;}
    
     .nom_prenom1{
-        margin-left: 5%;
+        margin-left: 0%;
     }
     .fonction {
         font-family: 'Roboto', Impact, sans-serif;
@@ -1290,6 +1355,7 @@ body{
     .ali_date3{ display: flex; margin-top: 3%;}
     #formation{ max-height: 24%;}
     .span_form{font-size: 110%;font-weight: bold;}
+    .span_espace_icone{margin-left: 3%;}
     #experience{ max-height: 38%;}
     .span_experi{font-weight: bold;}
     .recom{ font-size: 110%; font-weight: bold;}
@@ -1384,8 +1450,8 @@ body{
         .reco1{
         
             font-family: 'Montserrat', Impact, sans-serif;
-            margin-left: 8%;
-            margin-right: 8%;
+            margin-left: 0%;
+            margin-right: 5%;
         }
 }/*Fin de la media query de largeur entre 1025px et 1299px*/
 /* la media query  pour une largeur minimale de 1300px*/
@@ -1394,11 +1460,12 @@ body{
         display: flex;
         border: 1px solid black;
         justify-content: space-between;
-        width: 100%;
+       /* width: 99.85%;*/
         height: 100%;
           
         }
     #div_jaune {
+        border: 2px solid black;
         flex-wrap: wrap;
         background-color:#21618C;
         text-align: center;
@@ -1408,10 +1475,11 @@ body{
         height: auto;
         justify-content: flex-start;
              }
-    #span_adresse1{margin-left: 0.5%;}
+    #span_adresse1{margin-left: 0.5%; font-size: 95%;}
     #span_adresse2{
+         width:200px;
          margin-left: 3%; 
-         padding-right: 3%; 
+         padding-right: 1%; 
          padding-left: 3%; 
          text-align: justify;
     }
@@ -1420,6 +1488,16 @@ body{
         font-family: 'Montserrat', Impact, sans-serif;
         font-size: 100%;
     }
+    .adresse{
+        font-family: 'Montserrat', Impact, sans-serif;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 89%;
+      }
     .adresse2{
         font-family: 'Montserrat', Impact, sans-serif;
         font-size: 100%;
@@ -1433,12 +1511,11 @@ body{
     }
     .adressel {
         flex-wrap: wrap;
-       /* font-size: 100%;*/
         width: 100%;
         display: flex;
         padding-bottom: 4%;
         justify-content: space-around;
-        padding-top: 3%;
+        padding-top: 12%;
     }
 
     #div_blanc{
@@ -1467,7 +1544,7 @@ body{
         margin-bottom: 0px;
         font-size: 115%;
         margin-top: 1%;
-        margin-left: 5%;  
+        margin-left: 0%;  
     } 
     .periode{margin-left: 5%; width:300px;}
     .aligne1{margin-left: 3%;}
@@ -1551,7 +1628,7 @@ body{
         background-color: #3498DB;   
     }
     .nom_prenom1{
-        margin-left: 5%;
+        margin-left: 0%;
     }
     .fonction {
         font-family: 'Roboto', Impact, sans-serif;
@@ -1626,10 +1703,9 @@ body{
     
     }
     .reco1{
-    
         font-family: 'Montserrat', Impact, sans-serif;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 0%;
+        margin-right: 5%;
     }
 } /* Fin de la media query de largeur min 1300px*/
 
@@ -1655,25 +1731,25 @@ body{
  .fa-file-code{color:rgb(255, 0, 234);}
 
 .contact_moi_loisir {
+  margin-left: 0%;
   flex-wrap: wrap;
-  font-size: 120%;
+  font-size: 118%;
   font-family: 'Roboto', Impact, sans-serif;
   background-color: black;
   font-weight: bold;
   color: rgb(255, 153, 0);
   text-align: center;
-  width: 100%;
+  width: 99%;
   height: auto;
 }
 
  img{
-    width:100%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    width:55%;
+    margin-top: 4%;
+    margin-bottom: 0%;
     object-fit: cover;
     border-radius: 50%;
-    width: 50%;
-    height: 20%;
+    height: auto;
 
 }
 .fa-biking{
@@ -1694,17 +1770,7 @@ body{
     border-radius: 50%;
     padding:3%;
 }
-.adresse{
-  font-family: 'Montserrat', Impact, sans-serif;
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  text-align: justify;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 89%;
-  
-}
+
   #tete_cv{
       flex-wrap: wrap;
       width:100%;
@@ -1741,16 +1807,6 @@ body{
     height: auto;
 }
 
-/*.periode2_8{
-    flex-wrap: wrap;
-    width:100%;
-    font-family: 'Montserrat', Impact, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    display: inline-flex; 
-}*/
 /*Les deux types de police utilisées*/
 @font-face{ 
         font-family: "Roboto";
